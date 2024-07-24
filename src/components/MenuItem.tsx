@@ -1,9 +1,9 @@
 import { Dispatch } from "react";
 import { OrderActions } from "../reducers/order-reducer";
-import { MenuItem}  from "../types";
+import { MenuItem as MenuItemType}  from "../types";
 
 type MenuItemProps = {
-  item: MenuItem;
+  item: MenuItemType,
   dispatch: Dispatch<OrderActions>
 };
 
